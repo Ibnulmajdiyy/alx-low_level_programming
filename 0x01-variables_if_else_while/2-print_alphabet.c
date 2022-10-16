@@ -8,16 +8,15 @@
  *
  * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
-{
-	char lower_x;
-
-	lower_x = tolower(x);
-
-	putchar(lower_x);
-
+	int c;
+    /*scanf("%c", &c);*/
+	for (c = 'a'; c <= 'z'; ++c)
+	{
+		int putchar(int c);
+	}
 	return (0);
-}
 }
