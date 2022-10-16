@@ -14,7 +14,7 @@ int main(void)
 {
 	int c;
     /*scanf("%c", &c);*/
-	for (c = '1'; c <= '9'; ++c)
+	for (c = '0'; c <= '9'; ++c)
 	{
 		putchar(c);
 	}
