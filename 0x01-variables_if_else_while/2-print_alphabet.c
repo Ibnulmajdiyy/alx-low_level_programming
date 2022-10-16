@@ -16,7 +16,8 @@ int main(void)
     /*scanf("%c", &c);*/
 	for (c = 'a'; c <= 'z'; ++c)
 	{
-		int putchar(int c);
+		putchar(c);
+		putchar('\n');
 	}
 	return (0);
 }
