@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_last_digit - Entry point
  *
  * Description: 'the program's description'
+ * @r: in the question
  * Return: number of last digit
  */
 
-int main(void)
+int print_last_digit(int r)
 {
-	int r;
 
 	print_last_digit(98);
 	print_last_digit(0);
