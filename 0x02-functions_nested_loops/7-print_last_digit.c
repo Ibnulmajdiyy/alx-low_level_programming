@@ -5,7 +5,7 @@
  *
  * Description: 'the program's description'
  *@n: in the question
- * Return: Always 0 (Success)
+ * Return: number of last digit
  */
 
 int print_last_digit(int n)
@@ -15,5 +15,5 @@ int print_last_digit(int n)
 	digit = n % 10;
 		_putchar(digit);
 		_putchar('\n');
-		return (0);
+		return (digit);
 }
