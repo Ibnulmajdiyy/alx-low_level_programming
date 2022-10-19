@@ -4,24 +4,17 @@
  * print_last_digit - Entry point
  *
  * Description: 'the program's description'
- *@n: in the question
+ * @r: in the question
  * Return: number of last digit
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-	int digit;
+	print_last_digit(98);
+	print_last_digit(0);
+	r = print_last_digit(-1024);
 
-	digit = n % 10;
-	if (n > 0)
-	{
 
-		_putchar('0' + digit);
-		return (digit);
-	}
-	else
-	{digit = n % 10;
-		_putchar('0' + digit);
-	return (digit);
-	}
+		_putchar('0' + r);
+		return (r);
 }
