@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: 'the program's description'
- * @i: as in the question
+ *
  * Return: 0
  */
 
