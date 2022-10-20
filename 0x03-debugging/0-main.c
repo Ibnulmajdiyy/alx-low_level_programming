@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * positive_or_negative - Entry point
+ * main - Entry point
  *
  * Description: 'the program's description'
  * @i: as in the question
@@ -14,5 +14,6 @@ int main(void)
 
 	i = 0;
 	positive_or_negative(i);
+
 	return (0);
 }
