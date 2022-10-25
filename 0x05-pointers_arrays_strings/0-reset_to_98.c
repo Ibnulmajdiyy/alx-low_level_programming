@@ -2,16 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - to reset n to 98
+ * reset_to_98 - to reset n to 98
  *
- *
+ * @n: pointer variable
  * Return: 0
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
 	int i;
-	int *n;
 
 	i = 402;
 	n = &i;
@@ -21,8 +20,6 @@ int main(void)
 	*n = 98;
 
 	_putchar(i);
-
-	return (0);
 
 
 
