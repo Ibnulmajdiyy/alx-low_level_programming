@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * print_rev - check code
+ * rev_string - check code
  *
  * @s: to print string
  *
  * Return: 0
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int len = 0, i = 0;
 	char tmp;
