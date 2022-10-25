@@ -4,7 +4,7 @@
 /**
  * puts2 - check code
  *
- * @s: string
+ * @str: string
  * Return: 0
  */
 void puts2(char *str)
